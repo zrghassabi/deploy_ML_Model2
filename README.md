@@ -26,24 +26,29 @@ Step 2: Install necessary libraries. use requirements.txt
 
 Step 3: Build the best machine learning model and Save it.
 
- model.py in this file, I created a machine learning model and saved it as a JSON file best_model.json.
- best_xgboost_model.save_model("best_model.json")
+          model.py in this file, I created a machine learning model and saved it as a JSON file best_model.json.
+
+          best_xgboost_model.save_model("best_model.json")
 
 Step 4: Test the loaded model.
 
+          prediction.py in this file, I test the loaded model and saved label-encoder classes as a classes.npy file using.
+
+          np.save('classes.npy', label_encoder.classes_)
+
 Step 5: Create main.py file
 
-Step 5.2: Load saved label encoder classes
+         Step 5.2: Load saved label encoder classes
 
-Step 5.3: Load saved the best model
+         Step 5.3: Load saved the best model
 
-Step 5.4: Show dataframe on the web
+         Step 5.4: Show dataframe on the web
 
-Step 5.5: Select Fish Species
+         Step 5.5: Select Fish Species
 
-Step 5.6: Select each value of features using a slider window
+         Step 5.6: Select each value of features using a slider window
 
-Step 5.7: Make prediction button
+         Step 5.7: Make prediction button
 
 Step 6: Upload local project to Github
 
