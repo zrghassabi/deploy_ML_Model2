@@ -54,4 +54,6 @@ Step 6: Upload local project to Github
 
 Step 7: Create an account on Streamlit
 
+https://zrghassabi-deploy-ml-model2-main-18ujx1.streamlitapp.com/
+
 
