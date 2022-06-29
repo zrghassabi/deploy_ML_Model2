@@ -17,11 +17,17 @@ main.py, model.py, prediction.py
 2. prediction.py — Test saved ML model.
 3. main.py — the main file to run the web app.
 
+
+use WishWeightPredictionApplication in https://github.com/gurokeretcha/FishWeightPredictionApplication
+
 Step 1: Create a new virtual environment using Pycharm IDE.
 
-Step 2: Install necessary libraries.
+Step 2: Install necessary libraries. use requirements.txt
 
 Step 3: Build the best machine learning model and Save it.
+
+ model.py in this file, I created a machine learning model and saved it as a JSON file best_model.json.
+ best_xgboost_model.save_model("best_model.json")
 
 Step 4: Test the loaded model.
 
