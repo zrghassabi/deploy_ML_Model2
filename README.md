@@ -1,7 +1,8 @@
 # deploy_ML_Model2
 
+https://www.analyticsvidhya.com/blog/2021/10/machine-learning-model-deployment-using-streamlit/
 
-# https://towardsdatascience.com/how-to-deploy-machine-learning-models-601f8c13ff45
+ https://towardsdatascience.com/how-to-deploy-machine-learning-models-601f8c13ff45
 In general, there are different options to deploy ML models, such as Flask, Django, Streamlit, etc.
 I will use Streamlit because it is the easiest and faster way to do it and it does not require any web development knowledge.
 
